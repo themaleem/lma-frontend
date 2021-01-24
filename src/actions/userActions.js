@@ -14,7 +14,7 @@ import {
 } from "../constants/userConstants";
 
 // const url = "http://127.0.0.1:8000";
-// const url = "https://leave-mgt.herokuapp.com";
+const url = "https://leave-mgt.herokuapp.com";
 
 export const login = (email, password) => async (dispatch) => {
   try {
